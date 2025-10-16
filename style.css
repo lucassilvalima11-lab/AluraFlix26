@@ -26,3 +26,20 @@ padding-top: 80px;
 display: flex;
 justify-content: center;
 }
+.chamada-texto{
+    margin-right: 8%;
+
+}
+img.{
+    height: 200px;
+}
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 15px;
+
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
