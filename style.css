@@ -28,7 +28,6 @@ justify-content: center;
 }
 .chamada-texto{
     margin-right: 8%;
-
 }
 img.{
     height: 200px;
@@ -37,7 +36,15 @@ img.{
     display:flex;
     overflow-x: auto;
     gap: 15px;
-
+padding: 20px;
+scroll-behavior: smooth;
+}
+.categoria-videos::-webkit-scrollbar{
+    height: 8px;
+}
+.categoria-videos::-webkit-scrollbar-thumb{
+    background-color:rgb(rgb(0, 0, 0), rgb(0, 251, 255), rgb(255, 0, 191));
+    border-radius: 4px;
 }
 .categoria{
     padding-left: 20px;
